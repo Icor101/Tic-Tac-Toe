@@ -3,7 +3,6 @@ package Tic_Tac_Toe;
 import java.io.IOException;
 import java.util.*;
 
-import static CodeChef.CookOff.COOK98.q2.j;
 
 public class Main {
     static char ch;
@@ -375,7 +374,7 @@ public class Main {
                 System.out.print("\n\nThank You for Playing !!!\n\n");
                 System.out.println("\n\n\nTHE GAME IS EXITING\n");
                 for (int i = 0; i < 50; i++) {
-                    for (j = 0; j < 10000000; j++) ;
+                    for (int j = 0; j < 10000000; j++) ;
                     System.out.print(".");
                 }
                 System.out.println();
@@ -411,12 +410,12 @@ public class Main {
             default:
                 System.out.print("\n\nPlease Enter a Valid Choice !!!\n");
                 for (int i = 0; i < 10; i++)
-                    for (j = 0; j < 10000000; j++) ;
+                    for (int j = 0; j < 10000000; j++) ;
                 main("calling");
         }
         System.out.print("\n\n\nLoading Maze\n");
         for (int i = 0; i < 50; i++) {
-            for (j = 0; j < 10000000; j++) ;
+            for (int j = 0; j < 10000000; j++) ;
             System.out.print(".");
         }
         print();
@@ -454,7 +453,7 @@ public class Main {
                 System.out.print("\n\nThank You for Playing !!!\n\n");
                 System.out.println("\n\n\nTHE GAME IS EXITING\n");
                 for (int i = 0; i < 50; i++) {
-                    for (j = 0; j < 10000000; j++) ;
+                    for (int j = 0; j < 10000000; j++) ;
                     System.out.print(".");
                 }
                 System.out.println();
